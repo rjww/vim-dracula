@@ -5,16 +5,16 @@
 " Last Change: 2018/04/11
 " =============================================================================
 
-let s:black    = g:dracula_palette.bg
-let s:gray     = g:dracula_palette.selection
-let s:white    = g:dracula_palette.fg
-let s:darkblue = g:dracula_palette.comment
-let s:cyan     = g:dracula_palette.cyan
-let s:green    = g:dracula_palette.green
-let s:orange   = g:dracula_palette.orange
-let s:purple   = g:dracula_palette.purple
-let s:red      = g:dracula_palette.red
-let s:yellow   = g:dracula_palette.yellow
+let s:black    = ['#282A36', 236]
+let s:gray     = ['#44475A', 239]
+let s:white    = ['#F8F8F2', 255]
+let s:darkblue = ['#6272A4', 61 ]
+let s:cyan     = ['#8BE9FD', 117]
+let s:green    = ['#50FA7B', 84 ]
+let s:orange   = ['#FFB86C', 215]
+let s:purple   = ['#BD93F9', 141]
+let s:red      = ['#FF5555', 203]
+let s:yellow   = ['#F1FA8C', 228]
 
 if exists('g:lightline')
 
